@@ -31,16 +31,16 @@ function snake(){
 	}
 
 	this.show = function(){
-		//fill(255);
+		fill(255);
 
 		for(var i=0; i<this.total; i++)
 		{
-			//rect(this.tail[i].x, this.tail[i].y, scl, scl);
-			image(img, this.tail[i].x, this.tail[i].y, scl, scl);
+			rect(this.tail[i].x, this.tail[i].y, scl, scl);
+			//image(img, this.tail[i].x, this.tail[i].y, scl, scl);
 		}
 
-		//rect(this.x, this.y, scl, scl);
-		image(img, this.x, this.y, scl, scl);
+		rect(this.x, this.y, scl, scl);
+		//image(img, this.x, this.y, scl, scl);
 	}
 
 	this.eat = function(pos){
