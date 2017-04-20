@@ -7,7 +7,7 @@ var cdir = "r";
 
 
 function setup() { 
-  createCanvas(700, 700);
+  createCanvas(1000, 600);
   s = new snake();
   img = loadImage("hugo.jpg"); 
   imgwine = loadImage("wine.jpg")
