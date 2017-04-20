@@ -1,1 +1,1 @@
-# SnajeHugo
+# SnakeHugo
