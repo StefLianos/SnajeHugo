@@ -1,14 +1,14 @@
 var s;
-var scl = 30;
+var scl = 50;
 var img;
 var imgwine;
 var food;
 var cdir = "r";
 
 function setup() { 
-  createCanvas(600, 600);
+  createCanvas(1000, 1000);
   s = new snake();
-  img = loadImage("https://scontent-fra3-1.xx.fbcdn.net/v/t1.0-9/17498881_1454658287919490_6900229120361464961_n.jpg?oh=974000b60a257de753623e8d0320baa0&oe=594D1C1E"); 
+  img = loadImage("hugo.jpg"); 
   imgwine = loadImage("wine.jpg")
   frameRate(10);
   pickLocation();
@@ -16,7 +16,7 @@ function setup() {
 } 
 
 function draw() { 
-  background(51);
+  background(220);
 
   s.death();
   s.update();
