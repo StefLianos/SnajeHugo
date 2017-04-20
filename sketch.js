@@ -8,8 +8,8 @@ var cdir = "r";
 function setup() { 
   createCanvas(600, 600);
   s = new snake();
-  //img = loadImage("https://scontent-fra3-1.xx.fbcdn.net/v/t1.0-9/17498881_1454658287919490_6900229120361464961_n.jpg?oh=974000b60a257de753623e8d0320baa0&oe=594D1C1E"); 
-  //imgwine = loadImage("http://www.clker.com/cliparts/c/n/S/l/H/S/glass-of-wine-with-wine-bottle-md.png")
+  img = loadImage("https://scontent-fra3-1.xx.fbcdn.net/v/t1.0-9/17498881_1454658287919490_6900229120361464961_n.jpg?oh=974000b60a257de753623e8d0320baa0&oe=594D1C1E"); 
+  imgwine = loadImage("wine.jpg")
   frameRate(10);
   pickLocation();
   
@@ -27,8 +27,8 @@ function draw() {
   }
 
   fill(255,0,100);
-  rect(food.x, food.y, scl, scl);
-  //image(imgwine, food.x, food.y, scl,scl);
+  //rect(food.x, food.y, scl, scl);
+  image(imgwine, food.x, food.y, scl,scl);
   
 }
 
