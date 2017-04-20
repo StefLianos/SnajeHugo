@@ -4,6 +4,7 @@ var img;
 var imgwine;
 var food;
 var cdir = "r";
+var t;
 
 function setup() { 
   createCanvas(1000, 1000);
