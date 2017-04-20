@@ -26,7 +26,7 @@ function draw() {
   	pickLocation();
   }
 
-  fill(255,0,100);
+  //fill(255,0,100);
   //rect(food.x, food.y, scl, scl);
   image(imgwine, food.x, food.y, scl,scl);
   
