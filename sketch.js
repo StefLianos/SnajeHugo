@@ -1,13 +1,13 @@
 var s;
-var scl = 50;
+var scl = 35;
 var img;
 var imgwine;
 var food;
 var cdir = "r";
-var t;
+
 
 function setup() { 
-  createCanvas(1000, 1000);
+  createCanvas(800, 800);
   s = new snake();
   img = loadImage("hugo.jpg"); 
   imgwine = loadImage("wine.jpg")
